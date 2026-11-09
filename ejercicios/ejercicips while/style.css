@@ -1,0 +1,30 @@
+
+/* Estilos complementarios del ejercicio */
+
+.cabecera-ejercicio {
+    border-bottom: 2px solid #ead3a9;
+}
+
+.panel {
+    animation: aparecer .5s ease;
+}
+
+.panel h2 {
+    border-bottom: 1px solid #f6e3eb;
+    padding-bottom: 8px;
+}
+
+.resultado {
+    white-space: pre-wrap;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
